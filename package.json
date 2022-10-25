@@ -1,0 +1,46 @@
+{
+  "name": "meri-ui",
+  "version": "0.0.0",
+  "description": "A Vue 3 Component Library",
+  "author": "wangyongcun",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "sideEffects": false,
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "homepage": "https://www.naiveui.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuSimple/naive-ui"
+  },
+  "keywords": [
+    "meri-ui",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "copyfiles": "^2.4.1",
+    "gray-matter": "^4.0.3",
+    "rimraf": "^3.0.2",
+    "tsc-less": "^0.0.7",
+    "typescript": "^4.8.4",
+    "vitepress": "^1.0.0-alpha.21",
+    "vitepress-demoblock": "^1.0.3"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "serve": "vitepress serve docs",
+    "build": "npm run build:es && npm run build:cjs && npm run build:docs",
+    "build:es": "rimraf ./dist/es && tsc -b -f packages/tsconfig.esm.json && tsc-less -i packages -o dist/es",
+    "build:cjs": "rimraf ./dist/cjs && tsc -b -f packages/tsconfig.cjs.json && tsc-less -i packages -o dist/cjs",
+    "build:docs": "vitepress build docs",
+    "release": "node ./.vitepress/utils/handelVersion.js && npm run build && npm publish"
+  }
+}

@@ -1,0 +1,74 @@
+/*
+ * @Author: wangyongcun
+ * @Date: 2021-08-13 14:45:08
+ * @LastEditors: wangyongcun
+ * @LastEditTime: 2022-01-19 16:13:56
+ * @Description: 深色主题 全局样式变量
+ */
+
+html.m-theme-dark {
+    /* 主题名称 */
+    --m-theme: dark;
+    /* 默认样式 */
+    --m-color: #EBEEF5;
+    --m-border-color: #5D6179;
+    --m-background-color: #171b21;
+    /* 主色 */
+    --m-primary-color-50: #1E2A38;
+    --m-primary-color-100: #1D3144;
+    --m-primary-color-200: #17476D;
+    --m-primary-color-300: #105B98;
+    --m-primary-color-400: #0972C3;
+    --m-primary-color-500: #0091FF;
+    --m-primary-color-600: #1A9CFF;
+    --m-primary-color-700: #4DB2FF;
+    --m-primary-color-800: #75C3FF;
+    --m-primary-color-900: #8ACCFF;
+    /* 成功色 */
+    --m-success-color-50: #1E2E33;
+    --m-success-color-100: #1D383E;
+    --m-success-color-200: #175957;
+    --m-success-color-300: #107E75;
+    --m-success-color-400: #099F8D;
+    --m-success-color-500: #00D6BA;
+    --m-success-color-600: #1ADBC1;
+    --m-success-color-700: #4BE2CE;
+    --m-success-color-800: #80EADC;
+    --m-success-color-900: #9BEEE3;
+
+    /* 危险色 */
+    --m-danger-color-50: #2A282F;
+    --m-danger-color-100: #33282F;
+    --m-danger-color-200: #5A3032;
+    --m-danger-color-300: #813637;
+    --m-danger-color-400: #A63E3A;
+    --m-danger-color-500: #E24840;
+    --m-danger-color-600: #E45A53;
+    --m-danger-color-700: #EA7E76;
+    --m-danger-color-800: #F0A39E;
+    --m-danger-color-900: #F3B8B4;
+
+    /* 禁用色 */
+    --m-warning-color-50: #2A2A2C;
+    --m-warning-color-100: #322D29;
+    --m-warning-color-200: #5A3E20;
+    --m-warning-color-300: #7D4C17;
+    --m-warning-color-400: #A45E0E;
+    --m-warning-color-500: #DB7500;
+    --m-warning-color-600: #E18419;
+    --m-warning-color-700: #E69E4B;
+    --m-warning-color-800: #EEBB81;
+    --m-warning-color-900: #F1C798;
+
+    /* 信息色 */
+    --m-info-color-50: #171B21;
+    --m-info-color-100: #282B32;
+    --m-info-color-200: #2C323E;
+    --m-info-color-300: #404759;
+    --m-info-color-400: #5D6179;
+    --m-info-color-500: #71768E;
+    --m-info-color-600: #A5AAC0;
+    --m-info-color-700: #B4B8CC;
+    --m-info-color-800: #D3D5DE;
+    --m-info-color-900: #EBEEF5;
+}

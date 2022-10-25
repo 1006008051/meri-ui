@@ -1,0 +1,83 @@
+/*
+ * @Author: wangyongcun
+ * @Date: 2021-08-13 14:45:08
+ * @LastEditors: wangyongcun
+ * @LastEditTime: 2022-01-19 11:42:40
+ * @Description: 默认主题 - 全局样式变量
+ */
+:root {
+    /* 默认样式 */
+    --m-theme: default;
+    --m-font-size: 14;
+    --m-color: #1F2429;
+    --m-placeholder-color: #C3C6CB;
+    --m-background-color: #FFFFFF;
+    --m-border-color: #C3C7CB;
+    /* 主色 */
+    --m-primary-color: var(--m-primary-color-500);
+    --m-primary-hover-color: var(--m-primary-color-400);
+    --m-primary-color-50: #F0F8FF;
+    --m-primary-color-100: #E0F2FF;
+    --m-primary-color-200: #BAE0FD;
+    --m-primary-color-300: #82C7FC;
+    --m-primary-color-400: #4EB1FD;
+    --m-primary-color-500: #0091FF;
+    --m-primary-color-600: #007CDB;
+    --m-primary-color-700: #0065B3;
+    --m-primary-color-800: #00518F;
+    --m-primary-color-800: #004275;
+    /* 成功色 */
+    --m-success-color: var(--m-success-color-500);
+    --m-success-hover-color: var(--m-success-color-400);
+    --m-success-color-50: #EAFAF8;
+    --m-success-color-100: #D5F6F2;
+    --m-success-color-200: #A9EFE6;
+    --m-success-color-300: #64E8D6;
+    --m-success-color-400: #14E1C6;
+    --m-success-color-500: #00D6BA;
+    --m-success-color-600: #04B49C;
+    --m-success-color-700: #078372;
+    --m-success-color-800: #036356;
+    --m-success-color-900: #024B41;
+    /* 危险色 */
+    --m-danger-color: var(--m-danger-color-500);
+    --m-danger-hover-color: var(--m-danger-color-400);
+    --m-danger-color-200: #FBBFBC;
+    --m-danger-color-50: #FEF1F1;
+    --m-danger-color-100: #FDE4E2;
+    --m-danger-color-200: #FBBFBC;
+    --m-danger-color-300: #F9908B;
+    --m-danger-color-400: #F76B64;
+    --m-danger-color-500: #F55047;
+    --m-danger-color-600: #D83A31;
+    --m-danger-color-700: #AE2F29;
+    --m-danger-color-800: #832621;
+    --m-danger-color-900: #631C18;
+    /* 警告色 */
+    --m-warning-color: var(--m-warning-color-500);
+    --m-warning-hover-color: var(--m-warning-color-400);
+    --m-warning-color-50: #FFF5EB;
+    --m-warning-color-100: #FEEAD2;
+    --m-warning-color-200: #FED4A4;
+    --m-warning-color-300: #FFBA6B;
+    --m-warning-color-400: #FFA53D;
+    --m-warning-color-500: #F58300;
+    --m-warning-color-600: #DE7802;
+    --m-warning-color-700: #B16106;
+    --m-warning-color-800: #9F4F04;
+    --m-warning-color-900: #6B3900;
+    /* 信息色 */
+    --m-info-color: var(--m-info-color-500);
+    --m-info-hover-color: var(--m-info-color-400);
+    --m-info-color-0: #FFFFFF;
+    --m-info-color-50: #F8F9FA;
+    --m-info-color-100: #F5F6F7;
+    --m-info-color-200: #EFF0F1;
+    --m-info-color-300: #E4E5E7;
+    --m-info-color-400: #C3C7CB;
+    --m-info-color-500: #8D9399;
+    --m-info-color-600: #646C73;
+    --m-info-color-700: #454D54;
+    --m-info-color-800: #333940;
+    --m-info-color-900: #1F2429;
+}
