@@ -3,15 +3,15 @@ import demoblock from 'vitepress-demoblock';
 export default {
     srcDir: "../",
     lang: 'zh-CN',
-    title: 'VitePress',    // 标题
-    description: 'Just playing around.',    // 描述
+    title: 'Meri UI',    // 标题
+    description: '基于梅里雪山设计风格开发的一套vue3组件库',    // 描述
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
     ],
     lastUpdated: true, // 上次更新时间
     markdown: { // markdown 标题层级， 参考 https://markdown-it.docschina.org/
         headers: {
-            level: [0, 0]
+            level: [1, 1]
         },
         config: (md) => {
             md.use(demoblock)
@@ -36,8 +36,8 @@ export default {
         ],
         // 底部信息栏
         footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2019-present Evan You'
+            message: 'MIT Licensed',
+            copyright: 'Meri UI · Made by Persagy'
         },
         // 搜索栏
         algolia: {

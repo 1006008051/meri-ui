@@ -2,30 +2,30 @@
 layout: home
 
 hero:
-  name: meri-ui
-  text: 下一代的前端工具链
-  tagline: 为开发提供极速响应
+  name: Meri UI
+  text: Vue 3 组件库
+  tagline: 基于「梅里雪山」设计风格，为开发者提供极速响应
   image:
     src: /logo.svg
-    alt: VitePress
+    alt: Meri UI
   actions:
     - theme: brand
       text: 开始
-      link: /guide/what-is-vitepress
+      link: docs/guide/introduction
     - theme: alt
-      text: 为什选meri?
-      link: https://github.com/vuejs/vitepress
+      text: 快速上手
+      link:  docs/guide/quickstart
     - theme: alt
       text: 在GitHub上查看
       link: https://github.com/vuejs/vitepress
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 超多组件
+    details: 性能极佳，支持按需引入和 Tree Shaking，提供70+ 个高质量组件，覆盖WEB端主流场景
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: TypeScript
+    details: 全量使用 TypeScript 编写，提供完整的类型定义，和你的 TypeScript 项目无缝衔接
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 主题可调
+    details: 基于原生css变量开发，默认浅色模式，同时支持深色模式，可以进行全局或者单组件进行主题定制
 ---

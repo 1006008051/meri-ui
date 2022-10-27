@@ -4,10 +4,10 @@ import matter from "gray-matter";
 
 class setDocs {
     nav = [
-        { text: '指引', link: '/docs/guide/what', activeMatch: '/guide/' },
-        { text: '组件', link: '/packages/avatar/index', activeMatch: '/packages/' },
+        { text: '指南', link: '/docs/guide/introduction', activeMatch: '^/docs/guide' },
+        { text: '组件', link: '/packages/avatar/index', activeMatch: '^/packages/' },
         {
-            text: 'v1.0.0',
+            text: '相关链接',
             items: [
                 {
                     text: 'Changelog',
@@ -23,26 +23,71 @@ class setDocs {
     sidebar: Object = {
         '/docs/guide/': [
             {
-                text: '指引',
+                text: '开发',
                 collapsible: true,
                 items: [
-                    { text: '介绍', link: '/docs/guide/what' },
-                    { text: '快速上手', link: '/docs/guide/asset-handling' },
-                    { text: '指南', link: '/docs/guide/frontmatter' },
-                    { text: '版本', link: '/docs/guide/using-vue' }
+                    { text: '开发指南', link: '/docs/guide/introduction' },
+                    { text: '快速上手', link: '/docs/guide/quickstart' },
+                    { text: '主题定制', link: '/docs/guide/customTheme' },
+                    { text: '内置过度动画', link: '/docs/guide/transitions' },
+                    { text: '风格指南', link: '/docs/guide/codeStyle' },
+                ]
+            },
+            {
+                text: '设计',
+                collapsible: true,
+                items: [
+                    { text: '设计指南', link: '/docs/guide/designGuide' },
+                    { text: '设计资源', link: '/docs/guide/designResources' }
+                ]
+            },
+            {
+                text: '贡献',
+                collapsible: true,
+                items: [
+                    { text: '贡献指南', link: '/docs/guide/contributionGuide' },
+                    { text: '核心团队', link: '/docs/guide/team' }
+                ]
+            },
+            {
+                text: '版本',
+                collapsible: true,
+                items: [
+                    { text: '更新指南', link: '/docs/guide/updateGuide' },
+                    { text: '更新日志', link: '/docs/guide/updateLog' },
                 ]
             }
         ],
         '/packages/': [
             {
-                text: '通用组件',
+                text: '通用',
                 collapsible: true,
                 items: [
-                    { text: '介绍', link: '/packages/avatar/index' },
+                    { text: '按钮 Button', link: '/packages/avatar/index' },
                 ]
             },
             {
-                text: '通用组件11',
+                text: '布局',
+                collapsible: true,
+                items: []
+            },
+            {
+                text: '导航',
+                collapsible: true,
+                items: []
+            },
+            {
+                text: '数据录入',
+                collapsible: true,
+                items: []
+            },
+            {
+                text: '数据展示',
+                collapsible: true,
+                items: []
+            },
+            {
+                text: '反馈',
                 collapsible: true,
                 items: []
             }
